@@ -16,7 +16,8 @@ namespace WebCrawler
 
         public Crawler()
         {
-            url1 = ConfigurationManager.AppSettings["url"];
+            url1 = ConfigurationManager.AppSettings["url1"];
+            url2 = ConfigurationManager.AppSettings["url2"];
         }
 
         public async Task<string> Crawl()
